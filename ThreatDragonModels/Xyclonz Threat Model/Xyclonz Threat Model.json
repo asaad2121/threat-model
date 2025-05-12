@@ -1496,8 +1496,8 @@
           },
           {
             "position": {
-              "x": 668.75,
-              "y": 380
+              "x": 669,
+              "y": 390
             },
             "size": {
               "width": 112.5,
@@ -1505,7 +1505,7 @@
             },
             "attrs": {
               "text": {
-                "text": "VMware-based\nPrivate Cloud Zone"
+                "text": "VMware-based\nPrivate Cloud Zon"
               }
             },
             "visible": true,
