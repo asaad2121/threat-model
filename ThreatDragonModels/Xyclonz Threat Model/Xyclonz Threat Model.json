@@ -28,8 +28,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "428cb58c-f290-4f9f-9bc0-9fbc272bda54",
             "zIndex": -1,
+            "id": "428cb58c-f290-4f9f-9bc0-9fbc272bda54",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -49,8 +49,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "4dfdb262-f4d0-4d76-9b06-8cbd8db7840d",
             "zIndex": -1,
+            "id": "4dfdb262-f4d0-4d76-9b06-8cbd8db7840d",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -80,6 +80,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -163,7 +164,6 @@
               ]
             },
             "id": "f96559a3-dd3d-4df5-acec-7d5667d8ebda",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Web Portal\n(XIS UI)",
@@ -199,6 +199,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -282,7 +283,6 @@
               ]
             },
             "id": "d52b8ef3-f524-4929-83cd-66072706529d",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Authentication\nGateway",
@@ -774,6 +774,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -857,7 +858,6 @@
               ]
             },
             "id": "3f6bae6c-19e7-4528-82cc-f1e3fe2c26ec",
-            "zIndex": 11,
             "data": {
               "type": "tm.Actor",
               "name": "Researchers",
@@ -893,6 +893,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -976,7 +977,6 @@
               ]
             },
             "id": "340aeb51-a88f-44a8-90ee-2c91e99ec0c6",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "MiniIO Object \nStorage",
@@ -1016,6 +1016,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1099,7 +1100,6 @@
               ]
             },
             "id": "bcee271d-3275-4de1-b53b-d667146d79e0",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Research Output\nStore",
@@ -1136,6 +1136,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1219,7 +1220,6 @@
               ]
             },
             "id": "30310065-f436-4192-a8c4-669dc9fbc058",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
               "name": "Batch Data\nCollector",
@@ -1256,6 +1256,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1339,7 +1340,6 @@
               ]
             },
             "id": "ca56e861-fe0a-4c6e-b54f-9f3d02c0129c",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "Apache\nSpark",
@@ -1375,6 +1375,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1458,7 +1459,6 @@
               ]
             },
             "id": "0a1ba1bf-1d5f-4260-a1a7-88e30f96c59f",
-            "zIndex": 16,
             "data": {
               "type": "tm.Actor",
               "name": "External Data\nSource",
@@ -1486,8 +1486,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "581b3aaa-51ca-476f-808c-20c0a3a30091",
             "zIndex": 17,
+            "id": "581b3aaa-51ca-476f-808c-20c0a3a30091",
             "data": {
               "type": "tm.Text",
               "name": "Internal Secure Network",
@@ -1510,8 +1510,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "ab65061b-4b11-4dce-a7ac-31ad5c3f945d",
             "zIndex": 18,
+            "id": "ab65061b-4b11-4dce-a7ac-31ad5c3f945d",
             "data": {
               "type": "tm.Text",
               "name": "VMware-based\nPrivate Cloud Zone",
